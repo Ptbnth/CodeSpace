@@ -1,7 +1,7 @@
 {
   "name": "codespace",
   "version": "1.0.0",
-  "description": "serverの使用テスト用です",
+  "description": "Serverの使用テスト用です",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
