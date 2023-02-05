@@ -1,0 +1,26 @@
+{
+  "name": "codespace",
+  "version": "1.0.0",
+  "description": "serverの使用テスト用です",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ptbnth/CodeSpace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ptbnth/CodeSpace/issues"
+  },
+  "homepage": "https://github.com/Ptbnth/CodeSpace#readme",
+  "devDependencies": {
+    "http": "^0.0.1-security"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
