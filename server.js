@@ -1,5 +1,5 @@
 const http = require("http");
-const fs = require("fs").readFileSync("./index.html")
+const fs = require("fs").readFileSync("./index.html");
 const PORT = 8686;
 
 const server = http.createServer((req, res) => {
@@ -11,3 +11,13 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.log("success");
 });
+/*
+const http = require('http');
+const server = http.createServer((req, res) => {
+    res.end('Hello, world!');
+})
+
+server.listen(3000, () => {
+    console.log('success');
+})
+*/
